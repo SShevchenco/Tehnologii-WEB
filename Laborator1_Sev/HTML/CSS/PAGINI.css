@@ -1,0 +1,20 @@
+    body{
+    background-image:url(FOTO/PINxoh.jpg); 
+    }
+    h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    hr{
+        width : 100% ; 
+        color : black;
+    }
+
