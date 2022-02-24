@@ -1,16 +1,16 @@
 nav{
-    width: 1500px;
-    margin : 0 auto;
+    width: 1200px;
+    margin : 0 auto ;
 }
 
 nav::before{
     content:'';
     display : block;
-    height: 50px;
+    height: 60px;
     width: 100%;
     background: #bed9f0bd;
     position:absolute;
-    left:0;
+    left: 0px;;
     z-index: -1;
 }
 
@@ -28,13 +28,14 @@ ul li{
 ul li a{
     color: rgb(0, 0, 0);
     display: block;
-    height: 50px;
-    padding: 0 20px;
+    height: 5px;
+    padding: 5px;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 50px; 
 }
 
 ul li a:hover{
+    height: 50px;
     background-color: #bed9f0a4 ;
 }

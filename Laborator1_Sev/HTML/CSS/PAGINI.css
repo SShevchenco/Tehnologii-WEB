@@ -1,20 +1,39 @@
-    body{
+body{
     background-image:url(FOTO/PINxoh.jpg); 
     }
-    h1{
+h1{
     color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    a{
+h2{
+    text-align: center; 
+    color: black;
+}    
+a{
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    p{
+p{
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left; 
+    color: black;
     }
-    hr{
+hr{
         width : 100% ; 
         color : black;
     }
+div{
+    padding: 5px; 
+    margin-bottom: 5px;
+   }
 
+#center { 
+    padding: 70px;
+    text-align: center; 
+    }
+.content {
+    width: 100%; 
+    background: #bed9f0bd; 
+    border-radius: 30px;
+    }
