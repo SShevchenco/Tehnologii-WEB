@@ -25,18 +25,20 @@ hr{
         color : black;
     }
 div{
-    padding: 10px; 
-    margin-bottom: 20px;
-    text-align: center;
-    border-radius: 30px;
+    padding: 5px; 
+    margin-bottom: 5px;
    }
 
-.wrapper-col{
-    width: 50%;
-    background: #bed9f0a4;
-    margin: 0 auto;
-}
-.center-img {
-      display: block;
-      margin: auto;
+#center { 
+    padding: 70px;
+    text-align: center; 
     }
+.content {
+    width: 100%; 
+    background: #bed9f0bd; 
+    border-radius: 30px;
+    }
+.center-img {
+        display: block;
+        margin: 0 auto;
+      }
