@@ -6,7 +6,7 @@ nav{
 nav::before{
     content:'';
     display : block;
-    height: 60px;
+    height: 65px;
     width: 100%;
     background: #bed9f0bd;
     position:absolute;
@@ -18,7 +18,7 @@ ul{
     margin : 0;
     padding : 0;
     list-style: none;
-    height: 50px;
+    height: 60px;
 }
 
 ul li{
@@ -29,7 +29,7 @@ ul li a{
     color: rgb(0, 0, 0);
     display: block;
     height: 5px;
-    padding: 5px;
+    padding: 7px;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 50px; 
