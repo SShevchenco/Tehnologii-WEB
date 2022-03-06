@@ -1,42 +1,88 @@
-body{
-    background-image:url(FOTO/PINxoh.jpg); 
-    }
-h1{
-    color: rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-h2{
-    text-align: center; 
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}    
-a{
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-p{
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left; 
-    color: black;
-    }
-hr{
-        width : 100% ; 
-        color : black;
-    }
-div{
-    padding: 10px; 
-    margin-bottom: 20px;
-    text-align: center;
-    border-radius: 30px;
-   }
+body {
+    margin: 40px;
+    background:url(FOTO1/PINxoh.jpg) no-repeat;
+    padding:0;
+    font: 0.86em/1.6 Arial, Helvetica, sans-serif;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:0px;
+ }
 
-.wrapper-col{
-    width: 50%;
-    background: #bed9f0a4;
-    margin: 0 auto;
+h1 {
+    font-size: 1.5em;
 }
+
+h2 {
+    font-size: 1.3em;
+}
+
+#outer {
+    width: 850px;
+    margin: 0 auto;
+    background: #effbff;
+ }
+
+#hdr {
+    padding-top: 150px;
+    background: url(FOTO1/0013-013-Sem-chudes-sveta.jpg) no-repeat;
+ }
+
+#hdr h1 {
+    color: black;
+    background:#ADBBDE;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 1em;
+    border:solid #000000;	
+    border-width:1px 0 1px 0;
+ }
+
+#cont {
+    float: right;
+    width: 800px;
+    padding: 1.5em;
+ }
+
+#cont h2 {
+    color: rgb(153, 102, 51);
+}
+
+#ftr {
+    clear: both;
+    color: #fff;
+    background:#ADBBDE;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #000;
+    margin: 1em 0 0 0;
+ }
+
+#leftImg{
+    float:left;
+    height: 220px;
+    padding: 0 38px 38px 0px;
+}
+
+#rightImg{
+    float:right;
+    height: 220px;
+    padding: 0 0 5px 5px;
+}
+
 .center-img {
       display: block;
       margin: auto;
+      height: 38px;
+      padding-bottom: 12px;
     }
+
+.img{
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    width: 40px;
+    height: 40px;
+}
