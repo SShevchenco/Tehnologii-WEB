@@ -4,6 +4,9 @@ if(regForm){
     regForm.addEventListener('submit', function(e){
         e.preventDefault();
 
+
+        //temp
+
         if(checkValid()){
             e.currentTarget.submit();
         }
