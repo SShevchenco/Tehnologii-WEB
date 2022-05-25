@@ -4,11 +4,28 @@ if(regForm){
     regForm.addEventListener('submit', function(e){
         e.preventDefault();
 
-
-        //temp
-
         if(checkValid()){
-            e.currentTarget.submit();
+            const email = regForm.elements['eml'].value;
+            const pas = regForm.elements['psw'].value;
+            var errP = document.getElementById('errP');
+
+            $.ajax({
+                type: "POST",
+                url: "../PHP/register.php",
+                data: {
+                    "eml": pas,
+                    "psw": pas
+                },
+                dataType: "html",
+                success: function(dt){
+                    if(dt == true){
+                        errP.innerHTML = "Utilizator inexistent!";
+                    }else{
+                        alert('Ati fost logat cu succes');
+                        document.location = '../0HOMEPAGE.php';
+                    }
+                }
+            });
         }
 
     });
