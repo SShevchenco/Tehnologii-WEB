@@ -12,13 +12,11 @@ if (count($_POST)){
     foreach($importedList as $value){
 
         if($value->Email == $uemail && $value->Passwoed == $upassword){
-            echo false;
             $_SESSION['lKey'] = $uemail;
-            break;
+            echo false;
+            return;
         }
     }
-    if($_SESSION['errors'] == true){
-        echo true;
-    }
+    echo true;
 }
 ?>

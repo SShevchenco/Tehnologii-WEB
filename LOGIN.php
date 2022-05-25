@@ -10,11 +10,11 @@
 
 <body>
 
-  <form action="../PHP/login.php" method="POST">
+  <form action="JS/validare.j" method="POST" id="logFrm">
     <div class="container">
       <h1>Login</h1>
       <p>Completati tate spatiile.</p>
-      <p style="color:red"></p>
+      <p style="color:red" id="errP"></p>
       <hr>
 
       <label for="email"><b>Email</b></label>
@@ -33,6 +33,8 @@
     </div>
 
   </form>
+
+  <script src="JS/validare.js"></script>
 </body>
 
 </html>

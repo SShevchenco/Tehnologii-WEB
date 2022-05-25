@@ -10,7 +10,7 @@
 
 <body>
 
-  <form action="PHP/register.php" method="post" id="regFrm">
+  <form action="JS/validare.js" method="post" id="regFrm">
     <div class="container">
       <h1>Register</h1>
       <p>Completati tate spatiile.</p>
